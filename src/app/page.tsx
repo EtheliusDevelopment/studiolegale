@@ -43,11 +43,7 @@ export default function Home() {
       <Navbar />
 
       {/* HERO SECTION */}
-      <section className="relative flex-1 flex items-center justify-center bg-brand-paper py-20 lg:py-32 overflow-hidden">
-        {/* Decorative elements - Subtle geometry from logo */}
-        <div className="absolute top-0 right-0 w-1/3 h-full bg-linear-to-bl from-brand-paper via-brand-paper to-brand-gold/5 -z-0"></div>
-        <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-teal/5 rounded-full blur-3xl -z-0"></div>
-
+      <section className="relative flex-1 flex items-center justify-center bg-brand-paper py-20 lg:py-32 overflow-hidden border-b border-gray-100">
         <div className="container px-4 md:px-6 relative z-10 text-center">
           <div className="inline-block mb-6 px-4 py-1.5 rounded-full bg-brand-navy/5 border border-brand-navy/10">
             <span className="text-brand-navy/70 text-sm font-semibold tracking-wider uppercase">
