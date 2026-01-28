@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-header: var(--font-header);
+  --font-sans: var(--font-sans);
+
+  --color-brand-navy: #1a1e21;
+  /* Anthracite from logo text */
+  --color-brand-gold: #f4a236;
+  /* Orange bar */
+  --color-brand-teal: #2c7a7b;
+  /* Teal bar */
+  --color-brand-paper: #ffffff;
+  --color-brand-grey: #4a5568;
+}
+
+/* Custom base styles */
+body {
+  background-color: var(--color-brand-paper);
+  color: var(--color-brand-navy);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-header);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+/* Custom util classes if needed, though Tailwind v4 handles most via theme */
